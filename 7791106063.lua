@@ -50,7 +50,7 @@ local Map = lRage1:AddTab('Map')
 local local_player = game:GetService("Players").LocalPlayer
 
 local function is_baller( )
-    return local_player.UserId == 3047993336 or local_player.UserId == 73540 or local_player.Name:sub(0,#"HeadHook") == "HeadHook" or  local_player.Name:sub(0,#"MeWhen") == "MeWhen" or local_player.UserId == 25165339 or local_player:GetRankInGroup(25165339) >= 69 or local_player.UserId == 39683998 or local_player:IsFriendsWith(853268500)
+	return true
 end
 
 local char = local_player.Character or local_player.CharacterAdded:Wait();
